@@ -6,8 +6,8 @@ module.exports = {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
     library: "gazautoUI",
-    libraryTarget: "umd", // для использования в разных средах
-    globalObject: "this", // поддержка в Node и браузерах
+    libraryTarget: "umd",
+    globalObject: "this",
   },
   resolve: {
     extensions: [".ts", ".js"],
@@ -25,5 +25,5 @@ module.exports = {
       },
     ],
   },
-  mode: "production", // или 'development' для разработки
+  mode: "production",
 };

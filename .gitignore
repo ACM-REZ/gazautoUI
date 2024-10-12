@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# TypeScript
+dist/
+*.tsbuildinfo
+
+# Директории, созданные IDE
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Прочее
+*.log
+*.tmp
