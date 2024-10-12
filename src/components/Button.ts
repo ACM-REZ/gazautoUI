@@ -1,4 +1,4 @@
-import "../styles/button.scss";
+import "./button.scss";
 
 interface ButtonProps {
   label: string;
@@ -8,6 +8,7 @@ interface ButtonProps {
 
 export const Button = (props: ButtonProps): HTMLButtonElement => {
   const button = document.createElement("button");
+  button.classList.add("my-button");
   button.textContent = props.label;
   if (props.style) {
     Object.assign(button.style, props.style);
